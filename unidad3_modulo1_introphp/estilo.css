@@ -1,0 +1,15 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(218, 230, 230);
+}
+.contenido{
+    background-color: azure;
+    padding: 1.2 rem;
+}
+.constante{
+    background-color: white;
+    padding: 1.2 rem;
+}
