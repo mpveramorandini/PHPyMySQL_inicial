@@ -25,7 +25,12 @@
             <li> <a href="tienda.php?titulo=fo">Fuenteovejuna </a> </li>
         </ul>
     </section>
-
+    <?php   $titulo ="";
+            $autor= "";
+            $precio= "" ;
+            $img ;
+     ?>
+ 
     <?php  
     if (isset ($_GET["titulo"])){
         switch($_GET["titulo"]){
@@ -52,10 +57,10 @@
             }    
         }
     ?>
-    <div class="libro descripcion">
-   <h2>Titulo:<?php echo $titulo ?> </h2>
-   <h3>Autor: <?php echo $autor; ?></h3>
-   <h4>Precio: <?php echo $precio; ?></h4>
+  <div class="libro_descripcion">
+   <h2> <?php echo $titulo;?></h2>
+   <h3> <?php echo $autor;?></h3>
+   <h4> <?php echo $precio;?></h4>
     <div class="contenedor_img">
         <img src="<?php echo $img ?>" alt="">
     </div>
