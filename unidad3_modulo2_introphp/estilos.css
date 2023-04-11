@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color:white
+}
+h1{
+    color: rgba(243, 109, 7, 0.834);
+    background-color: white(28, 102, 8);
+    text-align: center;
+    text-transform: uppercase;
+}
+.contenido{
+    background-color: azure;
+    padding: 1.2 rem;
+}
+.constante{
+    background-color: white;
+    padding: 1.2 rem;
+}
+
+.botonera_principal{
+    border-left: 1rem solid rgba(243, 109, 7, 0.834);
+    background-color:rgba(12, 12, 98, 0.834);
+    padding: 2rem;
+}
+.botonera_principal ul {
+list-style: none;
+}
+
+.botonera_principal li{
+    display: inline-block;
+    padding-left: 1 rem;
+}
+.botonera_principal a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+.contacto_contenido{
+    color: white;
+    margin: 1rem;
+    padding: 1rem;
+    width: 80%;
+    background-color:rgba(12, 12, 98, 0.834);
+    border: 3px solid black;
+   
+}
+.contacto_input{
+width: 90%;
+display: block;
+padding: 1rem;
+margin-bottom: 0.8rem;
+}
+
+.enviar_input{
+    color:white;
+    background-color: rgba(243, 109, 7, 0.834);
+    border: none;
+    width: 4rem;
+    height: 2rem;
+}
+.recomendados, .nuevos_ingresos, .destacados{
+    border: 1px solid black;
+}
+
+.libros_recomedados a{
+color:rgba(12, 12, 98, 0.834);
+text-decoration: none;
+}
+
+.titulo_descripcion{
+    text-transform: uppercase;
+}
+.autor_descripcion{
+    text-transform: uppercase;
+    color:gray; 
+}
+.precio_descripcion{
+    color:  rgba(243, 109, 7, 0.834);;
+}
+.tematika{
+   color: gray;
+}
