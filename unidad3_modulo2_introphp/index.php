@@ -107,8 +107,12 @@
         const LIBROS_NUEVOS= array("Indias Blancas", "La vuelta al mundo en 80 dias","Excursion a los indios ranqueles" );
         echo "<br>";
         echo LIBROS_NUEVOS [2];
+        $cantidad = count(LIBROS_NUEVOS); 
+        echo "<br>";
+        echo ("La cantidad de artículos nuevos son: " . $cantidad); /*practicando count*/
     ?>
     </section>    
    
+    
 </body>
 </html>
